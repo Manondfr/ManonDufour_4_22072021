@@ -40,19 +40,19 @@
 <div class="page-container">
     
 <!-- Header -->
-<header  role="banner" class="bloc bgc-white">
+<header class="bloc bgc-white">
 	<div class="container bloc-sm">
-		<nav class="navbar row" role="navigation" aria-label="Menu de navigation principal">
+		<nav class="navbar row" aria-label="Menu de navigation principal">
 			<div class="navbar-header">
-				<a role="link" class="navbar-brand" href="index.html"><img role="img" src="img/la-chouette-agence.png" alt="Logo La Chouette Agence - entreprise de Web Design Lyon" height="40" /></a>
-				<button role="button" type="button" aria-expanded="false" aria-controls="navigationMenu" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo La Chouette Agence - entreprise de Web Design Lyon" height="40" /></a>
+				<button type="button" aria-expanded="false" aria-controls="navigationMenu" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Bouton de menu de navigation déroulable</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1" id="navigationMenu">
-				<ul role="list" class="site-navigation nav navbar-nav">
-					<li role="listitem"><a role="link" aria-label="Page d'accueil" aria-current="page" href="index.html">Accueil</a></li>
-					<li role="listitem"><a role="link" aria-label="Page de contact" href="contact.html">Contact</a></li>
+				<ul class="site-navigation nav navbar-nav">
+					<li><a aria-label="Page d'accueil" aria-current="page" href="index.html">Accueil</a></li>
+					<li><a aria-label="Page de contact" href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -61,13 +61,13 @@
 <!-- Header -->
 
 <!-- Bannière principale -->
-<main role="main">
-	<section role="region" aria-label="Bannière principale" class="bloc bgc-dark-slate-blue bg-banniere bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+<main>
+	<section aria-label="Bannière principale" class="bloc bgc-dark-slate-blue bg-banniere bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class="col-sm-12">
-					<img role="img" src="img/logo.png" class="center-block" width="100" alt=""/>
-					<h1 role="heading" aria-level="1" class="text-center tc-white ">
+					<img src="img/logo.png" class="center-block" width="100" alt=""/>
+					<h1 class="text-center tc-white ">
 						Parlons Web Design !
 					</h1>
 					<p class="text-center tc-white mg-lg tight-width-whitespace">
@@ -83,20 +83,20 @@
 
 <!-- Formulaire de contact -->
 	<section class="bloc bgc-white l-bloc">
-		<h2 role="heading" aria-level="2">Dites-nous tout...</h2>
+		<h2>Dites-nous tout...</h2>
 		<div class="container bloc-lg">
 			<div class="row">
-					<form aria-label="Formulaire de contact à remplir" id="form_1" success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<form aria-label="Formulaire de contact à remplir" id="form_1" data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="formFieldsets">
 							<fieldset class="form-group">
 								<legend>A propos de vous</legend>
-								<label for="name">Nom</label><input id="name" class="form-control" aria-describedby="Exemple de saisie valide" placeholder="André Dupont" required aria-required="true"/>
-								<label for="email">Adresse email</label><input id="email" class="form-control" type="email" aria-describedby="Exemple de saisie valide" placeholder="andredupont@gmail.com" required aria-required="true"/>
-								<label for="input_504">Comment nous avez-vous connu ?</label><input class="form-control" aria-describedby="Exemple de saisie valide" placeholder="Via un moteur de recherche, bouche-à-oreille..." required aria-required="true" id="input_504" />
+								<label for="name">Nom</label><input id="name" class="form-control" placeholder="André Dupont" required aria-required="true"/>
+								<label for="email">Adresse email</label><input id="email" class="form-control" type="email" placeholder="andredupont@gmail.com" required aria-required="true"/>
+								<label for="input_504">Comment nous avez-vous connu ?</label><input class="form-control" placeholder="Via un moteur de recherche, bouche-à-oreille..." required aria-required="true" id="input_504" />
 							</fieldset>
 							<fieldset class="form-group">
 								<legend>Votre projet</legend>
-								<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label><textarea id="message" class="form-control" aria-describedby="Exemple de saisie valide" placeholder="Je souhaite créer un beau site Web !" rows="4" cols="50" required aria-required="true"></textarea>
+								<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label><textarea id="message" class="form-control" placeholder="Je souhaite créer un beau site Web !" rows="4" cols="50" required aria-required="true"></textarea>
 							</fieldset> 
 						</div>
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
@@ -114,7 +114,7 @@
 
 
 <!-- Footer -->
-<footer role="contentinfo" class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -124,22 +124,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a role="link" aria-label="Logo Twitter cliquable" class="social" href="#"><span class="fa fa-twitter icon-md" title="Logo cliquable : Twitter" ></span></a>
+							<a aria-label="Logo Twitter cliquable" class="social" href="#"><span class="fa fa-twitter icon-md" title="Logo cliquable : Twitter" ></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a role="link" aria-label="Logo Facebook cliquable" class="social" href="#"><span class="fa fa-facebook icon-md" title="Logo cliquable : Facebook"></span></a>
+							<a aria-label="Logo Facebook cliquable" class="social" href="#"><span class="fa fa-facebook icon-md" title="Logo cliquable : Facebook"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a role="link" aria-label="Logo Dribble cliquable" class="social" href="#"><span class="fa fa-dribbble icon-md" title="Logo cliquable : Dribbble"></span></a>
+							<a aria-label="Logo Dribble cliquable" class="social" href="#"><span class="fa fa-dribbble icon-md" title="Logo cliquable : Dribbble"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a role="link" aria-label="Logo Instagram cliquable" class="social" href="#"><span class="fa fa-instagram icon-md" title="Logo cliquable : Instagram"></span></a>
+							<a aria-label="Logo Instagram cliquable" class="social" href="#"><span class="fa fa-instagram icon-md" title="Logo cliquable : Instagram"></span></a>
 						</div>
 					</div>
 				</div>
